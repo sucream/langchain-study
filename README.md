@@ -19,7 +19,7 @@ pip install -r requirements.txt
 ## 1. 챗봇 테스트 해보기
 
 ```
-uvicorn main:app -p 8000
+uvicorn main:app --port 8000
 ```
 - http://localhost:8000 에서 테스트 가능
 
